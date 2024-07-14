@@ -256,6 +256,149 @@ background: #FFF4D6;
 
 /* Donate-Today-section-Ends */
 
+/* lives-survive-section-ends */
+
+.lives-survive{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lives{
+  width: 71.190rem;
+  height: 30.555rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6.993rem;
+}
+
+.lives-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1.25rem;
+}
+
+.lives-text-container h2{
+  width: 30.75rem;
+  color: rgb(18, 18, 18);
+  font-family: Inter;
+  font-size: 2.81rem;
+  font-weight: 700;
+  line-height: 3.38rem;
+  letter-spacing: 0rem;
+  text-align: left;
+
+}
+
+.lives-text-container p{
+  width: 30.75rem;
+  color: #707070;
+  font-family: Poppins;
+  text-align: left;
+  font-size: 1.125rem;
+  font-weight: 400;
+  gap: ;
+}
+
+.Contribute-btn{
+  display: flex;
+  width: 14.375rem;
+  padding: 1rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.3125rem;
+  background: #FF5959;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+
+}
+
+.lives-image-conatiner{
+  width: 51.56rem;
+  height: 34.38rem;
+  border: 2px solid border ;
+
+}
+
+.lives-image-conatiner img{
+width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 34.375rem;
+object-fit: cover;
+}
+
+
+.Survive{
+  width: 71.190rem;
+  height: 30.555rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6.993rem;
+}
+
+.Survive-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1.25rem;
+}
+
+.Survive-text-container h2{
+  width: 30.75rem;
+  color: rgb(18, 18, 18);
+  font-family: Inter;
+  font-size: 2.81rem;
+  font-weight: 700;
+  line-height: 3.38rem;
+  letter-spacing: 0rem;
+  text-align: left;
+
+}
+
+.Survive-text-container p{
+  width: 30.75rem;
+  color: #707070;
+  font-family: Poppins;
+  text-align: left;
+  font-size: 1.125rem;
+  font-weight: 400;
+  gap: ;
+}
+
+
+.Survive-image-conatiner{
+  width: 51.56rem;
+  height: 34.38rem;
+  border: 2px solid border ;
+
+}
+
+.Survive-image-conatiner img{
+width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 34.375rem;
+object-fit: cover;
+}
+
+
+/* lives-survive-section-ends */
+
+
+
 /* Media Queries */
 
 @media (max-width: 992px) 
@@ -450,6 +593,8 @@ background: #FFF4D6;
 .btn {
   width: 6rem;
   font-size: 0.8rem;
+}
+
 }
 
 }
